@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.ad {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    margin-top: -15px;
+    padding-top: 5px;
+    height: 30px;
+    
+}
+
+.ad a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+header {
+    background-color: #ffe01b;
+    height: 600px !important;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.myp{
+    background-color: grey;
+    color: black;
+    /* height: 10px; */
+    width: 45px;
+    font-size: 12px;
+    padding: 3px;
+    transform: rotate(270deg);
+    margin-left: 1405px;
+    margin-top: 220px;
+    /* order: 0; */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 {
+    display: flex;
+}
+
+.nav1 img {
+    width: 110px;
+    height: 40px;
+    padding: 10px;
+}
+
+.nav1 select {
+    background-color: #ffe01b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 30px;
+    border: none;
+    padding: 0 5px;
+    margin-top: 15px;
+}
+
+.nav1 p {
+    margin-top: 22px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.nav2 {
+    display: flex;
+}
+
+.nav2 img {
+    width: 20px;
+    height: 20px;
+    padding: 25px 20px;
+    /* margin-right: 0px; */
+}
+
+.nav2 select {
+    background-color: #ffe01b;
+    border: none;
+}
+
+.nav2 p {
+    font-size: 13px;
+    margin-top: 27px;
+    padding: 0 20px;
+}
+
+.btn {
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.btn button {
+    background-color: #ffe01b;
+    font-size: 12px;
+    /* border: none; */
+    color: grey;
+    padding: 10px 15px;
+    margin-right: 18px;
+    border-radius: 40px;
+    border: 2px solid grey;
+}
+
+section {
+    display: flex;
+    margin-top: -230px !important;
+    justify-content: space-evenly;
+    /* padding: 30px; */
+}
+
+section h3 {
+    font-size: 30px;
+    margin-top: 90px;
+    /* margin-right: -400px; */
+}
+
+section p {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+section img {
+    margin-left: -150px;
+}
+
+section button {
+    background-color: #ffe01b;
+    color: grey;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 2px solid grey;
+    padding: 8px;
+}
