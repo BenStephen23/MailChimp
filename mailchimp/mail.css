@@ -2,7 +2,7 @@ body {
     margin: 0;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
-
+/* ad */
 .ad {
     text-align: center;
     background-color: black;
@@ -20,6 +20,7 @@ body {
     border-bottom: 1px dotted;
 }
 
+/* header */
 header {
     background-color: #ffe01b;
     height: 600px !important;
@@ -185,7 +186,7 @@ section button {
 .spontxt p {
     margin-top: 150px;
     margin-bottom: 10px;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .spontxt button {
@@ -193,9 +194,93 @@ section button {
     font-size: 13px;
     padding: 10px;
     /* margin-top: ; */
-    margin-top: ;
+    margin-bottom: 25px;
 
     color: grey;
     border-radius: 40px;
     border: 1px solid grey;
+}
+
+/* main */
+main {
+    /* text-align: center; */
+    background-color: lightgray;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.mspan1 {
+    text-align: center;
+}
+
+.mspan1 h3 {
+    font-size: 30px;
+}
+
+.mspan1 p {
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.mdiv1 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    padding: 0 150px;
+}
+
+.mdiv1 img {
+    width: 500px;
+    height: 400px;
+    margin-left: -100px
+}
+.mdiv1 h4 {
+    padding-top: 130px;
+    font-size: 20px;
+}
+
+.mdiv2 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    padding: 0 150px;
+}
+
+.mdiv2 img {
+    width: 500px;
+    height: 400px;
+    margin-right: -120px;
+}
+
+.mdiv2a {
+    margin-left: -150px;
+}
+
+.mdiv2 h4 {
+    padding-top: 100px;
+    /* margin-left: -100px; */
+    font-size: 20px;
+}
+
+.mdiv2 p{
+    /* margin-left: -200px; */
+}
+
+.mdiv3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 0 130px;
+
+}
+
+.mdiv3 img {
+    width: 500px;
+    height: 400px;
+    margin-left: -80px;
+}
+
+.mdiv3 h4 {
+    padding-top: 100px;
+    font-size: 20px;
 }
